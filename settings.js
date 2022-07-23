@@ -33,7 +33,7 @@ global.footer = '⫹⫺ 𝗧𝗶𝗺𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 : ${time}\n⫹
 
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
-global.youtube = ''https://youtube.com/channel/UCtt_8qM9i8x83BY_U8oozOg'
+global.youtube = 'https://youtube.com/channel/UCtt_8qM9i8x83BY_U8oozOg'
 global.ig = 'https://instagram.com/andhycarsrofficial'
 global.mygc = 'https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M'
 global.myweb = 'https://instagram.com/andhycarsrofficial'
