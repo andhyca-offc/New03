@@ -29,7 +29,7 @@ global.ownernomer = '6285872761910','6285794408499','6287829536442','62895330584
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = '🅚︎Ⓘ︎🅝︎Ⓖ︎ • 𝐴𝑛𝑑ℎ𝑦𝑐𝑎ᵍᵃⁿᶻ' //ubah jadi nama mu, note tanda ' gausah di hapus!
 global.botname = '𝐀𝐧𝐝𝐡𝐲𝐜𝐚𝐛𝐨𝐭𝐳-𝐌𝐝ོ' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.footer = '⫹⫺ 𝗧𝗶𝗺𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 : ${wktuwib}\n⫹⫺ 𝗗𝗮𝘁𝗲 𝗦𝗲𝗿𝘃𝗲𝗿: ${week} ${date}l' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.footer = '⫹⫺ 𝗧𝗶𝗺𝗲 𝗦𝗲𝗿𝘃𝗲𝗿 : ${time}\n⫹⫺ 𝗗𝗮𝘁𝗲 𝗦𝗲𝗿𝘃𝗲𝗿: ${date}' //ubah jadi nama mu, note tanda ' gausah di hapus!
 
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
