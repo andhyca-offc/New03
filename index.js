@@ -45,7 +45,7 @@ const  { ind } = require(`./language`)
 lang = ind // Language
 
 // Type Menu
-typemenu = 'document'
+typemenu = 'image'
 
 // Date
 moment.tz.setDefault("Asia/Jakarta").locale("id");
@@ -3293,8 +3293,8 @@ case "setmenu":
 if (!isCreator) return reply(mess.owner)
 if (!text) return reply("1. image\n2. gif\n3. list\n\nContoh .setmenu image")
 // Docoument
-if (q == "document") {
-typemenu = 'document'
+if (q == "image") {
+typemenu = 'image'
 reply("Sucses Mengganti Menu "+q)
 }
 // Gif
@@ -3311,9 +3311,9 @@ break
 case "setallmenu":
 if (!isCreator) return reply(mess.owner)
 if (!text) return reply("1. image\n2. gif\n3. catalog\n\nContoh .setallmenu image")
-// Document
-if (q == "document") {
-typemenu = 'document'
+// image
+if (q == "image") {
+typemenu = 'image'
 reply("Sucses Mengganti Menu "+q)
 }
 // Gif
@@ -3332,7 +3332,7 @@ await chika.sendListMenu(from, `*––––––『 LIST MENU 』––––
 }
 break
 case 'menu': {
-if(typemenu == 'document'){
+if(typemenu == 'image'){
 await chika.send5ButImg(from, `` + '' + lang.menu(botname, pushname, salam), `${footer}`,thumb, [{"urlButton": {"displayText": "📽️ YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `🎀 Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "🌹 Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "🌸 List Menu","id": 'command'}}] )
 }
 if(typemenu == 'gif'){
