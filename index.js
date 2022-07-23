@@ -3346,10 +3346,10 @@ break
 case 'allmenu': {
 if(typemenu == 'document'){
 var riych = await getBuffer(picak+'All Menu')
-await chika.send5ButImg(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `${footer}`,velochika, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
+await chika.send5ButImg(from, `` + '' + lang.allmenu(prefix, pushname, limitUser, botname, time, wit, wita, salam), `${footer}`,velochika, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
 }
 if(typemenu == 'gif'){
-await chika.send5ButGif(from, `` + '' + lang.allmenu(prefix, pushname, botname, time, salam), `${footer}`,velochika, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
+await chika.send5ButGif(from, `` + '' + lang.allmenu(prefix, pushname, limitUser, botname, time, wit, wita, salam), `${footer}`,velochika, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": `Rest Api's`,"url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
 }
 if(typemenu == 'catalog'){
 await chika.sendCatalog(from, 'ALL MENU', lang.allmenu(prefix, pushname, botname, time, salam), thumb, {quoted: ftroli})
