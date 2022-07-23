@@ -6,7 +6,7 @@
 */
 
 //—————「 Menu 」—————//
-exports.menu = (botname, pushname, limitUser, time, wit, wita, salam) => {
+exports.menu = (prefix, pushname, limitUser, botname, time, wit, wita, salam) => {
 	return`┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅
 ❏═┅═━–〈 *I N F O*
 ┆⫹⫺ *Name:* ${pushname}
